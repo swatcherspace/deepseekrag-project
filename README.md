@@ -6,27 +6,28 @@ This project demonstrates how to use the Deepseek-r1 1.5B model through `Ollama`
 
 ## Project Setup
 
-### 1. **Ollama & Deepseek Model**
+### 1. Ollama & Deepseek Model
 The model is pulled from Ollama and served locally by running Ollama separately. The model is then accessed through the code and used to provide responses.
 
-### 2. **FastAPI API Creation**
+### 2. FastAPI API Creation
 FastAPI is used to create the APIs. The APIs handle requests, process data using the Deepseek model, and return responses.
 
-### 3. **Uvicorn for API Running**
+### 3. Uvicorn for API Running
 Uvicorn is used to run the FastAPI application in an ASGI server.
 
-### 4. **Testing with Curl**
+### 4. Testing with Curl
 The APIs are tested using `curl` for testing HTTP requests and responses.
 
-### 5. **Database and Migrations**
+
+### 5. Database and Migrations
 - **Alembic** is used for database migrations to ensure that the schema is up-to-date.
 - **SQLAlchemy** is used for interacting with the database.
 - **Pydantic** is used for validating incoming data for the APIs.
 
-### 6. **Docker for Containerization**
+### 6. Docker for Containerization
 Docker is used to containerize the application, making it easier to deploy and run in isolated environments.
 
-### 7. **Docker Compose for Multi-Container Setup**
+### 7. Docker Compose for Multi-Container Setup
 Docker Compose is used to define and run multi-container Docker applications, making it easy to manage services like the application and database in one setup.
 
 ## Requirements
@@ -130,4 +131,11 @@ Deepseek-r1 1.5B is a powerful language model that excels at a wide range of nat
 
 - **State-of-the-Art NLP**: Deepseek competes with some of the best models in the market, offering a combination of precision, flexibility, and speed. By leveraging this model, the project ensures that users receive high-quality responses for a variety of NLP tasks.
 **RESULTS
+```
+![Screenshot 2025-02-04 at 5 22 30 PM](https://github.com/user-attachments/assets/0acbce79-73b2-4ddb-9a6f-b2ed5476bcac)
+![Screenshot 2025-02-04 at 5 22 49 PM](https://github.com/user-attachments/assets/89b89eb1-d08c-41b2-a0ec-aa7cb93de44a)
+![Screenshot 2025-02-04 at 5 23 07 PM](https://github.com/user-attachments/assets/894bd74a-e295-4905-ad35-d0fca03eb074)
+![Screenshot 2025-02-04 at 5 23 20 PM](https://github.com/user-attachments/assets/fd5f58c6-9797-4cb9-a44a-a25797f53333)
+![Screenshot 2025-02-04 at 5 23 30 PM](https://github.com/user-attachments/assets/bfe2898e-bf8b-4f17-96c0-a67bb3c5af1c)
+```
 
