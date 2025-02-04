@@ -137,5 +137,8 @@ Deepseek-r1 1.5B is a powerful language model that excels at a wide range of nat
 ![Screenshot 2025-02-04 at 5 23 07 PM](https://github.com/user-attachments/assets/894bd74a-e295-4905-ad35-d0fca03eb074)
 ![Screenshot 2025-02-04 at 5 23 20 PM](https://github.com/user-attachments/assets/fd5f58c6-9797-4cb9-a44a-a25797f53333)
 ![Screenshot 2025-02-04 at 5 23 30 PM](https://github.com/user-attachments/assets/bfe2898e-bf8b-4f17-96c0-a67bb3c5af1c)
+![Screenshot 2025-02-04 at 5 38 37 PM](https://github.com/user-attachments/assets/49df7d94-e4f1-42ce-b247-ec6affe6afce)
+
+
 ```
 
