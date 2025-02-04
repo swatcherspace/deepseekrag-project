@@ -1,6 +1,4 @@
 # deepseekrag-project
-Here’s a `README.md` file based on your project setup:
-
 ```markdown
 # FastAPI Deepseek API with Docker and Uvicorn
 
@@ -106,20 +104,7 @@ http://127.0.0.1:8000/docs
 
 ## Directory Structure
 
-```
-/project-root
-  /app
-    __init__.py
-    main.py          # FastAPI app and API endpoints
-    models.py        # SQLAlchemy models
-    schemas.py       # Pydantic models for request validation
-    crud.py          # CRUD operations with SQLAlchemy
-  /migrations         # Alembic migration files
-  /Dockerfile         # Dockerfile for containerization
-  /docker-compose.yml # Docker Compose configuration
-  requirements.txt    # Python dependencies
-  alembic.ini         # Alembic configuration
-  README.md           # Project documentation
+![Screenshot 2025-02-04 at 5 16 35 PM](https://github.com/user-attachments/assets/47adbac4-477a-4442-8e1f-4db468f448c9)
 ```
 These are the 2 APIs in which i have used deepseek-r1 1.5B i have use ollama and pulled the model into my system then run the ollama seperately which serves me the deepseek model and then i have used the model in my code and then i have used the fastapi to create the api and then i have used the uvicorn to run the api and then i have used the curl to test the api.
 
@@ -144,3 +129,5 @@ Deepseek-r1 1.5B is a powerful language model that excels at a wide range of nat
 - **Ease of Integration with Ollama**: By utilizing Ollama to serve the Deepseek model locally, we can easily integrate the model into our FastAPI application without the complexity of managing server infrastructure for model deployment. Ollama provides a streamlined interface for loading and running models, simplifying the overall process.
 
 - **State-of-the-Art NLP**: Deepseek competes with some of the best models in the market, offering a combination of precision, flexibility, and speed. By leveraging this model, the project ensures that users receive high-quality responses for a variety of NLP tasks.
+**RESULTS
+
